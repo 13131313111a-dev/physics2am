@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>مشروع الطاقة النووية</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+/* الإعدادات العامة */
+body {
+    margin: 0;
+    font-family: 'Cairo', sans-serif;
+    direction: rtl;
+    color: white;
+    background: url('bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* طبقة شفافة لتسهيل قراءة النص */
+.overlay {
+    background: rgba(0, 0, 0, 0.7);
+    min-height: 100vh;
+    padding-bottom: 50px;
+}
+
+/* العنوان الرئيسي */
+header {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header h1 {
+    font-size: 55px;
+    color: #00ffff;
+    text-shadow: 0 0 20px cyan;
+}
+
+header p {
+    font-size: 20px;
+    color: #ddd;
+}
+
+/* محتوى */
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* الأقسام */
+.section {
+    background: rgba(255,255,255,0.1);
+    padding: 35px;
+    margin: 30px 0;
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+/* عناوين الأقسام */
+.section h2 {
+    color: #ffcc00;
+    text-shadow: 0 0 15px gold;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+/* نصوص طويلة */
+.section p, .section ul, .section ol {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #eee;
+}
+
+/* الصور */
+.images {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.images img {
+    width: 300px;
+    border-radius: 15px;
+    border: 2px solid cyan;
+    box-shadow: 0 0 20px cyan;
+}
+
+/* إطار للفيديو */
+.video-box {
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 20px cyan;
+}
+
+/* تنسيق الصور داخل الأقسام */
+.site-img {
+    width: 100%;
+    max-width: 350px;
+    display: block;
+    margin: 15px auto;
+    border-radius: 12px;
+    box-shadow: 0 0 15px cyan;
+}
+
+/* الفوتر */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #aaa;
+    font-size: 16px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="overlay">
+
+<header>
+    <h1>مشروع حول الطاقة النووية</h1>
+    <p>السنة الثانية ثانوي - فيزياء</p>
+</header>
+
+<div class="container">
+
+    <div class="section">
+        <h2>المقدمة</h2>
+        <p>
+        الطاقة النووية هي الطاقة التي يتم توليدها عن طريق التحكم في تفاعلات انشطار أو اندماج الذرة. تستغل هذه الطاقة في محطات توليد الكهرباء النووية، حيث يسخن الماء لإنتاج بخار الماء الذي يستخدم بعد ذلك لتحريك زعنفات لإنتاج الكهرباء. في 2009، شكلت نسبة الكهرباء المنتجة من الطاقة النووية بنحو 13-14% من إجمالي الطاقة الكهربية المنتجة في العالم. كما تعمل الآن أكثر من 150 غواصة بالطاقة النووية.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>تعريف الطاقة النووية</h2>
+        <p>
+        الطاقة النووية هي نوع من أنواع الطاقة الناتجة عن تحويل نواة الذرة إلى شكل آخر، سواء عن طريق الانشطار النووي أو الاندماج النووي. أكثر أنواع الطاقة النووية شيوعًا هو الانشطار، الذي يتم فيه قسمة نواة ثقيلة مثل اليورانيوم أو البلوتونيوم إلى نواتين أصغر، مع إطلاق كمية كبيرة من الطاقة على شكل حرارة وإشعاع.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>أشهر العلماء</h2>
+        <ul>
+            <li>إرنست رذرفورد: ساهم في اكتشاف نواة الذرة وتطوير نموذجها.</li>
+            <li>ماري كوري: اكتشفت الراديوم والبولونيوم وأسست أبحاث الإشعاع.</li>
+            <li>ألبرت أينشتاين: قدم أسس النظرية النسبية التي ساعدت في فهم الطاقة.</li>
+            <li>إنريكو فيرمي: ساهم في تطوير المفاعل النووي الأول.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>خواص ومميزات الطاقة النووية</h2>
+        <ol>
+            <li>طاقة عالية جدًا مقارنة بالوقود التقليدي</li>
+            <li>إنتاج مستمر للكهرباء</li>
+            <li>قليلة الانبعاثات الغازية</li>
+            <li>نقل الكهرباء إلى الشبكة العامة بشكل آمن</li>
+            <li>التركيز على الحرارة والإشعاع</li>
+            <li>خطر الإشعاع والنفايات</li>
+            <li>إمكانية التحكم والإدارة</li>
+            <li>القابلية للتطور التكنولوجي</li>
+            <li>الاعتماد على الوقود النادر</li>
+        </ol>
+    </div>
+
+    <div class="section">
+        <h2>استخدامات الطاقة النووية</h2>
+        <p>
+        الطاقة النووية تُستخدم في مجالات متعددة مثل توليد الكهرباء، الطب، الصناعة، وحتى المجال العسكري.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>فوائد الطاقة النووية</h2>
+        <p>
+        - إنتاج كبير ومستمر للطاقة<br>
+        - صديقة للبيئة نسبيًا<br>
+        - اقتصادية على المدى الطويل<br>
+        - تكنولوجيا متطورة ومتنوعة الاستخدامات
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>المخاطر</h2>
+        <p>
+        رغم فوائدها الكبيرة، تحمل الطاقة النووية مخاطر مثل الإشعاع النووي، النفايات المشعة، الحوادث النووية، والاستعمال العسكري.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>كيف نحصل على الطاقة النووية?</h2>
+        <p>
+        نحصل على الطاقة النووية من الانشطار النووي أو الاندماج النووي. الانشطار يتم في المفاعلات، والاندماج ما زال قيد التجربة. 
+        </p>
+        <img src="image.jpg" alt="طاقة نووية" class="site-img">
+        <div class="video-box">
+            <video controls width="100%">
+                <source src="video.mp4" type="video/mp4">
+                المتصفح خاصتك لا يدعم الفيديو
+            </video>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>تمثيل السلسلة الطاقوية في المفاعلات النووية</h2>
+        <p>
+        تبدأ سلسلة الطاقة بانشطار نواة اليورانيوم، يتحرر منه حرارة تسخن الماء، ثم يدفع البخار التوربينات لتوليد الكهرباء.
+        </p>
+    </div>
+
+</div>
+
+<footer>
+    <p>مشروع في الفيزياء © 2026</p>
+</footer>
+
+</div>
+
+</body>
+</html>
